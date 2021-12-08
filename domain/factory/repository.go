@@ -1,6 +1,6 @@
 package factory
 
-import "github.com/codeedu/imersao5-gateway/domain/repository"
+import "github.com/sSchmidtT/imersaofc5/domain/repository"
 
 type RepositoryFactory interface {
 	CreateTransactionRepository() repository.TransactionRepository
